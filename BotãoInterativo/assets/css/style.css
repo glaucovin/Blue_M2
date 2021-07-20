@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700);
+@import url(//db.onlinewebfonts.com/c/22c246f5ab7a44ddf08e3b7ab1dfcbf8?family=Saiyan+Sans+-+Left+Oblique);
+@font-face {
+  font-family: "Saiyan Sans - Left Oblique"; 
+  src: url("//db.onlinewebfonts.com/t/22c246f5ab7a44ddf08e3b7ab1dfcbf8.eot"); 
+  src: url("//db.onlinewebfonts.com/t/22c246f5ab7a44ddf08e3b7ab1dfcbf8.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/22c246f5ab7a44ddf08e3b7ab1dfcbf8.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/22c246f5ab7a44ddf08e3b7ab1dfcbf8.woff") format("woff"), url("//db.onlinewebfonts.com/t/22c246f5ab7a44ddf08e3b7ab1dfcbf8.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/22c246f5ab7a44ddf08e3b7ab1dfcbf8.svg#Saiyan Sans - Left Oblique") format("svg"); 
+}
+
+body {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: rgb(3,15,3);
+  background: linear-gradient(121deg, rgba(84,41,5,1) 0%, rgba(251,113,0,1) 35%, rgba(249,255,0,1) 100%);
+  font-size: 13px;
+}
+
+header {
+    background-image: url('../img/bg\ game.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+  font-family: 'Saiyan Sans - Left Oblique';
+  padding: 5rem;
+  font-size: 3rem;
+  background: linear-gradient(121deg, rgba(0,7,103,1) 0%, rgba(5,102,191,1) 35%, rgba(0,249,255,1) 100%);  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+section#main {
+  padding: 5rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  list-style: none;
+  display: flex;
+}
+
+section#main div#status h2 {
+  padding: 0.7rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+
+}
+
+section#main div#status h3 {
+  padding: 0.7rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+
+}
+
+section#main div#status h4 {
+  padding: 0.7rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+
+}
+
+section#main div#status button#transformar {
+  background:    #630707;
+  background:    linear-gradient(#f00805, #630707 50%, #f00805);
+  border:        0.5px solid #000000;
+  border-radius: 500px;
+  padding:       10px 25px;
+  color:         #ffffff;
+  display:       inline-block;
+  font:          normal bold 16px/1 "Komika", cursive;
+  text-align:    center;
+}
+
+section#main div#status button#alterar {
+  background:    #04146e;
+  background:    linear-gradient(#0daae9, #04146e 50%, #0daae9);
+  border:        0.5px solid #000000;
+  border-radius: 500px;
+  padding:       10px 25px;
+  color:         #ffffff;
+  display:       inline-block;
+  font:          normal bold 16px/1 "Komika", cursive;
+  text-align:    center;
+}
+
+section#main div#imagem img {
+  border-radius: 20px;
+}
+
+h6 {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
